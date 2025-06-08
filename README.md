@@ -1,35 +1,40 @@
-````markdown
 <p align="center">
     <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="center" width="30%">
 </p>
 <p align="center"><h1 align="center">CAMPUS-IMAGE-LOCATOR</h1></p>
 <p align="center">
-  <em><code>Predict location, orientation, and region within IIIT-H campus from input images</code></em>
+	<em><code>❯ REPLACE-ME</code></em>
 </p>
 <p align="center">
-  <img src="https://img.shields.io/github/license/priet-ukani/Campus-Image-Locator?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-  <img src="https://img.shields.io/github/last-commit/priet-ukani/Campus-Image-Locator?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-  <img src="https://img.shields.io/github/languages/top/priet-ukani/Campus-Image-Locator?style=default&color=0080ff" alt="repo-top-language">
-  <img src="https://img.shields.io/github/languages/count/priet-ukani/Campus-Image-Locator?style=default&color=0080ff" alt="repo-language-count">
+	<img src="https://img.shields.io/github/license/priet-ukani/Campus-Image-Locator?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/priet-ukani/Campus-Image-Locator?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/priet-ukani/Campus-Image-Locator?style=default&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/priet-ukani/Campus-Image-Locator?style=default&color=0080ff" alt="repo-language-count">
 </p>
+<p align="center"><!-- default option, no dependency badges. -->
+</p>
+<p align="center">
+	<!-- default option, no dependency badges. -->
+</p>
+<br>
 
 ##  Table of Contents
 
-- [ Overview](#-overview)
-- [ Features](#-features)
-- [ Project Structure](#-project-structure)
-  - [ Project Index](#-project-index)
-- [ Getting Started](#-getting-started)
-  - [ Prerequisites](#-prerequisites)
-  - [ Installation](#-installation)
-  - [ Usage](#-usage)
-  - [ Testing](#-testing)
-- [ Approach](#-approach)
-- [ Results & Evaluation](#-results--evaluation)
-- [ Project Roadmap](#-project-roadmap)
-- [ Contributing](#-contributing)
-- [ License](#-license)
-- [ Acknowledgments](#-acknowledgments)
+- [Overview](#overview)
+- [Features](#features)
+- [Project Structure](#project-structure)
+  - [Project Index](#project-index)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Testing](#testing)
+- [Approach](#approach)
+- [Results & Evaluation](#results--evaluation)
+- [Project Roadmap](#project-roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -233,13 +238,16 @@ This project employs a modular, multi-stage pipeline leveraging state-of-the-art
 
 ## Results & Evaluation
 
-> **Note:** Fill in this section with your quantitative metrics, error analyses, and visualizations.
-
-* **Latitude & Longitude MSE:** 13500
+* **Latitude & Longitude MSE:** 13500 (Scaled values of Latitude and Longitude in range of 100000)
 * **Angle Mean Angular Error:** 17.5 degrees
 * **Region ID Accuracy:** *97.56%*
 
 Note: A Bonus of 20%(of Project weightage) was awarded for getting the best 20 results in all three tasks, on the Kaggle leaderboard. Also I was the person getting the overall score combining all three tasks in a class of 130.
+
+
+> **Note:** Got a total of 11.91/20 in the project
+
+---
 
 ### Qualitative Analysis
 The Campus was divided into 15 distinct regions, each with unique visual characteristics. The model successfully learned to differentiate these regions based on color, architecture, and landmarks. It achieved high accuracy in region classification, with some misclassifications occurring at region boundaries where visual features overlap.
@@ -252,8 +260,8 @@ The Laitude and Longitude regression models demonstrated reasonable accuracy, wi
 ## Project Roadmap
 
 * [x] Data collection & annotation pipeline
-* [ ] Improve coordinate regression through advanced augmentation
-* [ ] Experiment with multi-task learning model combining all outputs
+* [x] Improve coordinate regression through advanced augmentation
+* [x] Experiment with multi-task learning model combining all outputs
 * [ ] Deploy best model on a simple web interface
 * [ ] Publish final write-up and open-source dataset split scripts
 
@@ -277,6 +285,3 @@ We welcome contributions! Please follow these steps:
 * OpenCV and PyTorch communities for tooling and support
 
 ---
-
-```
-```
